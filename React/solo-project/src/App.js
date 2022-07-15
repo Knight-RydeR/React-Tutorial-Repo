@@ -3,16 +3,21 @@ import About from './components/About';
 import FirstDisplay from './components/FirstDisplay';
 import Interests from './components/Interests';
 import IconFooter from './components/IconFooter';
+import ButtonBar from './components/ButtonBar';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <main><FirstDisplay />
-        <About />
-        <Interests />
-        <IconFooter /></main>
+        <main>
+          <FirstDisplay />
+          <ButtonBar />
+          <About />
+          <Interests />
+          <IconFooter />
+        </main>
         {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p> */}

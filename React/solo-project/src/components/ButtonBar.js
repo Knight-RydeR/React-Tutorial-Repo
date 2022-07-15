@@ -1,12 +1,11 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
 
-export default function IconFooter() {
+export default function ButtonBar() {
     return(
         <div className='container'>
-            <div>Twitter</div>
-            <div>Facebook</div>
-            <div>Github</div>
+            <button>Email</button>
+            <button>LinkedIn</button>
         </div>
     );
 }
